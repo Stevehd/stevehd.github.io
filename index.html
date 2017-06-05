@@ -1,258 +1,100 @@
 <!DOCTYPE html>
 <html>
 <title>Twin Squid</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-red.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-<body>
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="lato.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Header -->
-<header class="w3-container w3-theme w3-padding" id="myHeader">
-  <div class="w3-center">
-  <h1 class="w3-xxxlarge">Twin Squid</h1>
-  </div>
-</header>
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#36b4d7">
+<meta name="theme-color" content="#ffffff">
 
-<!--
-<div class="auto-resizable-iframe">
-  <div>
-	  <iframe width="1280" height="720" src="https://www.youtube.com/embed/0vrdgDdPApQ" frameborder="0" allowfullscreen></iframe>  </div>
-</div>
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body style="background-color:black;">
 
--->
-
-<!--
-<div class="w3-row-padding w3-center w3-margin-top">
-<div class="w3-third">
-  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
-  <h4>Responsive</h4><br>
-  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Built-in responsiveness</p>
-  <p>Mobile first fluid grid</p>
-  <p>Fits any screen sizes</p>
-  <p>PC Tablet and Mobile</p>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-pink w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+	<a href="#games" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GAMES</a>
+    <a href="#press" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRESSKIT</a>
+    <a href="#social" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
   </div>
 </div>
 
-<div class="w3-third">
-  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
-  <h4>Standard CSS</h4><br>
-  <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Standard CSS only</p>
-  <p>Easy to learn</p>
-  <p>No need for jQuery</p>
-  <p>No JavaScript library</p>
-  </div>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-pink w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#games" class="w3-bar-item w3-button w3-padding-large">GAMES</a>
+  <a href="#press" class="w3-bar-item w3-button w3-padding-large">PRESSKIT</a>
+  <a href="#social" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
 </div>
 
-<div class="w3-third">
-  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
-  <h4>Design</h4><br>
-  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Paper like design</p>
-  <p>Bold colors and shadows</p>
-  <p>Equal across platforms</p>
-  <p>Equal across devices</p>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1000px;margin-top:46px">
+
+  <!-- Twin Squid logo -->
+  <div class="w3-image w3-center">
+    <img src="logo.png" style="width:100%">
   </div>
-</div>
-</div>
--->
+  
+  <!-- About Twin Squid -->
+  <div class="w3-container w3-content w3-center w3-padding-32 " style="max-width:1000px" id="about">
+    <h2 class="w3-wide" style="color:white">WHO OR WHAT IS TWIN SQUID?</h2>
+    <p class="w3-center" style="color:white">Twin Squid is an independent games studio that was formed in 2016 by Stephen Harrison-Daly (<a target="_blank" href="https://twitter.com/steveOHD">@steveOHD</a>). Stephen spent 7 years working with the lovely folks in R&D at Sony Computer Entertainment Europe, before leaving it all behind with the plan to create some of the greatest games in the ENTIRE SOLAR SYSTEM. The goal is to create polished games that feel great, and are just good old fashioned fun.</p>
+  </div>
+  
+	<!-- Games -->
+	<div class="w3-container w3-content w3-center w3-padding-32 " style="max-width:1000px" id="games">
+    <h2 class="w3-wide" style="color:white">GAMES</h2>
+	<div class="w3-image w3-center">
+    <img src="eyes.jpg" style="width:100%">
+	</div>
+	<p class="w3-center" style="color:white">COMING LATE 2017. CHECK BACK SOON!</p>
+	</div>
 	
-<div class="w3-row-padding">
-
-<div class="w3-container w3-center">
-  <hr>
-  <h3>Coming Soon</h3>
+	<!-- Youtube video -->
+	<!-- <div class="auto-resizable-iframe"> -->
+		<!-- <div> -->
+		<!-- <iframe frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/IaH2C2Qe97Y"></iframe> -->
+		<!-- </div> -->
+	<!-- </div> -->
+  
+<!-- End Page Content -->
 </div>
-
-<!--
-<div class="w3-container w3-center">
-  <hr>
-  <h3>Paper-like Cards with Shadows</h3>
-</div>
-<div class="w3-row-padding"> 
-
-<div class="w3-third">
-<div class="w3-card-2">
-  <img src="img_car.jpg" alt="Car" style="width:100%">
-  <div class="w3-container">
-  <p>w3-card-2</p>
-  </div>
-</div>
-</div>
-
-<div class="w3-third">
-<div class="w3-card-4">
-  <img src="img_car.jpg" alt="Car" style="width:100%">
-  <div class="w3-container">
-  <p>w3-card-4</p>
-  </div>
-</div>
-</div>
-
-<div class="w3-third">
-<div class="w3-card-8">
-  <img src="img_car.jpg" alt="Car" style="width:100%">
-  <div class="w3-container">
-  <p>w3-card-8</p>
-  </div>
-</div>
-</div>
-</div>
-
-<h2 class="w3-center">Slideshows</h2>
-<div class="w3-content" style="max-width:800px;position:relative">
-
-<img class="mySlides w3-animate-opacity" src="img_car.jpg" style="width:100%">
-<img class="mySlides w3-animate-opacity" src="img_car.jpg" style="width:100%">
-<img class="mySlides w3-animate-opacity" src="img_car.jpg" style="width:100%">
-
-<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">&#10094;</a>
-<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">&#10095;</a>
-</div>
-
-<div class="w3-container">
-<hr>
-<h2 class="w3-center">Navigation</h2>
-
-<ul class="w3-navbar w3-theme">
-  <li><a class="w3-theme-dark w3-padding-16" href="javascript:void(0)">Home</a></li>
-  <li><a class="w3-padding-16" href="javascript:void(0)">Link 1</a></li>
-  <li><a class="w3-padding-16" href="javascript:void(0)">Link 2</a></li>
-  <li class="w3-dropdown-hover">
-    <a class="w3-padding-16" href="javascript:void(0)">Dropdown <i class="fa fa-caret-down"></i></a>
-    <div class="w3-dropdown-content w3-card-4">
-      <a class="w3-padding-16" href="javascript:void(0)">Link 1</a>
-      <a class="w3-padding-16" href="javascript:void(0)">Link 2</a>
-      <a class="w3-padding-16" href="javascript:void(0)">Link 3</a>
-    </div>
-  </li>
-  <li class="w3-right"><a class="w3-padding-16" href="javascript:void(0)"><i class="fa fa-search"></i></a></li>
-</ul>
-
-<hr>
-<h2 class="w3-center">Tabs</h2>
-<div class="w3-container">
-<div class="w3-border">
-<ul class="w3-navbar w3-theme">
-  <li><a class="w3-btn w3-theme testbtn" onclick="openCity(event, 'London')">London</a></li>
-  <li><a class="w3-btn w3-theme testbtn" onclick="openCity(event, 'Paris')">Paris</a></li>
-  <li><a class="w3-btn w3-theme testbtn" onclick="openCity(event, 'Tokyo')">Tokyo</a></li>
-</ul>
-
-<div id="London" class="w3-container city w3-animate-opacity">
-  <h2>London</h2>
-  <p>London is the capital city of England.</p>
-  <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-</div>
-
-<div id="Paris" class="w3-container city w3-animate-opacity">
-  <h2>Paris</h2>
-  <p>Paris is the capital of France.</p> 
-  <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
-</div>
-
-<div id="Tokyo" class="w3-container city w3-animate-opacity">
-  <h2>Tokyo</h2>
-  <p>Tokyo is the capital of Japan.</p>
-  <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
-</div>
-</div>
-</div>
--->
-	
-<br>
 
 <!-- Footer -->
-<footer class="w3-container w3-theme-dark">
-	<h4>&copy; 2016, Twin Squid Ltd</h4>
-  <div style="position:relative;bottom:45px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme w3-padding">Go To Top</span>&nbsp;   
-    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-  </div>
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xxxlarge" id="social">
+  <a target="_blank" href="https://twitter.com/TwinSquidGames" style="text-decoration:none;" class="fa fa-twitter w3-hover-opacity"></a>
+  <p class="w3-center w3-large" style="color:white">© 2017, Twin Squid Ltd</p>
 </footer>
 
-<!-- Script for Sidenav, Tabs, Accordions, Progress bars and slideshows -->
 <script>
-// Side navigation
-function w3_open() {
-    var x = document.getElementById("mySidenav");
-    x.style.width = "100%";
-    x.style.textAlign = "center";
-    x.style.fontSize = "50px";
-    x.style.paddingTop = "10%";
-    x.style.display = "block";
-}
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
-}
 
-// Tabs
-function openCity(evt, cityName) {
-  var i;
-  var x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  var activebtn = document.getElementsByClassName("testbtn");
-  for (i = 0; i < x.length; i++) {
-      activebtn[i].className = activebtn[i].className.replace(" w3-theme-dark", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " w3-theme-dark";
-}
-
-var mybtn = document.getElementsByClassName("testbtn")[0];
-mybtn.click();
-
-// Accordions
-function myAccFunc(id) {
-    var x = document.getElementById(id);
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-        x.previousElementSibling.className += " w3-theme-dark";
     } else { 
         x.className = x.className.replace(" w3-show", "");
-        x.previousElementSibling.className = 
-        x.previousElementSibling.className.replace(" w3-theme-dark", "");
     }
 }
 
-// Slideshows
-var slideIndex = 1;
-
-function plusDivs(n) {
-slideIndex = slideIndex + n;
-showDivs(slideIndex);
-}
-
-function showDivs(n) {
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-
-showDivs(1);
-
-// Progress Bars
-function move() {
-  var elem = document.getElementById("myBar");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width == 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-      document.getElementById("demoprgr").innerHTML = width * 1  + '%';
-    }
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
 }
 </script>
